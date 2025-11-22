@@ -7,6 +7,11 @@ print("Welcome to Student Courses System")
 student_objects = [Student(name, number) for name, number in students]
 course_objects = [Course(code, title) for code, title in courses]
 
+student_objects[0].add_course(course_objects[1])
+student_objects[0].add_course(course_objects[0])
+student_objects[0].add_course(course_objects[2])
+
+
 print("Students:")
 for s in student_objects:
     print(" -", s)

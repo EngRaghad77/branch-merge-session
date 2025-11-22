@@ -6,4 +6,6 @@ students = [
 courses = [
     ("CS101", "software design"),
     ("CS102", "configuration management"),
+    ("CS103", "software architecture"),
+    ("CS104", "DB1")
 ]
